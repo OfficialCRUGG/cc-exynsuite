@@ -45,9 +45,11 @@ fs.makeDir("exyn/apis")
 download("https://raw.githubusercontent.com/cc-exyn/exyn/master/exyn/boot.lua", "/exyn/boot.lua")
 download("https://raw.githubusercontent.com/cc-exyn/exyn/master/exyn/install.lua", "/exyn/install.lua")
 
-download("https://raw.githubusercontent.com/cc-exyn/exyn/master/exyn/apis/exynSystem.lua", "/exyn/apis/exynSystem.lua")
-download("https://raw.githubusercontent.com/cc-exyn/exyn/master/exyn/apis/exynUi.lua", "/exyn/apis/exynUi.lua")
-download("https://raw.githubusercontent.com/cc-exyn/exyn/master/exyn/apis/exynHttp.lua", "/exyn/apis/exynHttp.lua")
+download("https://raw.githubusercontent.com/cc-exyn/exyn/master/startup.lua", "startup")
+
+download("https://raw.githubusercontent.com/cc-exyn/exyn/master/exyn/apis/exynSystem.lua", "/exyn/apis/exynSystem")
+download("https://raw.githubusercontent.com/cc-exyn/exyn/master/exyn/apis/exynUi.lua", "/exyn/apis/exynUi")
+download("https://raw.githubusercontent.com/cc-exyn/exyn/master/exyn/apis/exynHttp.lua", "/exyn/apis/exynHttp")
 
 --> Reboot
 centerText("Rebooting in 3...")
