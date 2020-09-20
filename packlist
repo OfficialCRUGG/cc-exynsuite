@@ -1,9 +1,9 @@
 name = luaide
-  type = pastebin
-          url = vyAZc6tJ
-          filename = luaide
-  category = programming
-  dependencies = none
-  version = 1.0
-  size = 59744
+        type = pastebin
+                url = vyAZc6tJ
+                filename = luaide
+        category = programming
+        dependencies = none
+        version = 1.0
+        size = 59744
 end
