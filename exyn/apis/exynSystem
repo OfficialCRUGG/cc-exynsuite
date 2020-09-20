@@ -1,0 +1,10 @@
+function reboot()
+    exynUi.setTheme("light")
+    exynUi.centerText("Rebooting in 3...")
+    sleep(1)
+    exynUi.centerText("Rebooting in 2...")
+    sleep(1)
+    exynUi.centerText("Rebooting in 1...")
+    sleep(1)
+    os.reboot()
+end
